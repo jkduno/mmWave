@@ -6,9 +6,12 @@
 % output: 'jk_mean_ir' of size [81880x1] and of 40GHz BW
 % 'jk_mean_ir' corresponds to the uncalibrated impulse response.
 Cal5GHz_r1_wb_jk_60GHz_2Gbps;   % select an element, check BB_BW (2GHz? 6GHz?)
+% npn: 81880
+% spb: 40
+% 81880 => 40GHzdfadsfgasgdsag
+mean_ir = reshape(jk_mean_ir,npn,1);
 
 mean_ir = reshape(jk_mean_ir,npn,1); %%% lkjlkj
-ffhg
 %% resample 'jk_mean_ir'
 % 40GHz to 12GHz
 % interpolate jk_mean_ir with the interpolation factor of 12.
