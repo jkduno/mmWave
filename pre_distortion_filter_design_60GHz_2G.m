@@ -8,7 +8,7 @@
 Cal5GHz_r1_wb_jk_60GHz_2Gbps;   % select an element, check BB_BW (2GHz? 6GHz?)
 % npn: 81880
 % spb: 40
-% 81880 => 40GHz
+% 81880 => 40GHzdfadsfgasgdsag
 mean_ir = reshape(jk_mean_ir,npn,1);
 
 %% resample 'jk_mean_ir'
